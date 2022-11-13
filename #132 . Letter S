@@ -1,0 +1,16 @@
+<div a></div><div b></div><div c></div><div d></div><div e></div><style>body{background:#4F77FF}
+[a],[b],[c]{
+width:240;
+height:50;
+background:#FFF;
+transform:translate(72px,62px);
+border-radius:10px;
+box-shadow:20px -20px 0 0 #1038BF}
+  [b]{
+transform:translate(72px,122px);
+box-shadow:-20px 20px 0 0 #1038BF}[c]{
+height:20;
+transform:translate(72px,32px);
+box-shadow:none}
+  [d],[e]{width:20;height:50;background: #FFFFFF;transform:translate(72px,-26px)}[e]{transform:translate(292px,-26px)}
+  </style>
