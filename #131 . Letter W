@@ -1,0 +1,3 @@
+<div a></div><div b></div><div c></div><div d></div><div e></div><style>body{background:#E38F66}
+  [a],[b]{width:60;height:80;background:transparent;border:30px solid #FFFBDA;border-radius:0 0 60px 60px;border-top-color:transparent;transform:translate(177px,82px)}[b]{border-color:#62306D;border-top-color:transparent;transform:translate(87px,-58px)}[c],[d],[e]{width:30;height:100;border-radius: 60px 60px 0 0;background:#62306D;transform:translate(87px,-218px)}[d]{transform: translate(177px,-318px)}[e]{background:#FFFBDA;transform:translate(267px,-418px)}
+  </style>
