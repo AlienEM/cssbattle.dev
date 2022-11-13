@@ -1,0 +1,78 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+<div f></div>
+<div g></div>
+<style>
+  body {
+    background: #EFF2F1;
+  }
+  [a]{
+    position: absolute;
+    background: #1C1C1C;
+    width: 40px;
+    height: 180px;
+    top: 60;
+    left: 130;
+    z-index: 99;
+  }
+  [b]{
+    position: absolute;
+    width: px;
+    height: 90px;
+    border-right: 105px solid #1C1C1C;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    top: 60;
+    left: 155;
+  }
+  [c]{
+    position: absolute;
+    width: px;
+    height: 60px;
+    border-right: 65px solid #EFF2F1;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    top: 75;
+    left: 155;
+  }
+  [d]{
+    position: absolute;
+    height: 6px;
+    width: 0px;
+    border-left: 59px solid #1C1C1C;
+	border-top:34px solid transparent;
+    top: 200;
+    left: 231;
+  }
+  [e]{
+    position: absolute;
+    height: 9px;
+    width: 0px;
+    border-left: 60px solid #1C1C1C;
+	border-top:34px solid transparent;
+    top: 197;
+    left: 130;
+    -webkit-box-reflect: left -40px;
+  }
+  [f]{
+    position: absolute;
+    height: 9px;
+    width: 0px;
+    border-right: 60px solid #1C1C1C;
+	border-bottom:34px solid transparent;
+    top: 60;
+    left: 110;
+  }
+  [g]{
+    position: absolute;
+    background: #1C1C1C;
+    width: 40px;
+    height: 105px;
+    top: 131;
+    left: 202;
+    transform: rotate(-30deg);
+  }
+</style>
