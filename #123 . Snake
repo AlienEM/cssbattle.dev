@@ -1,0 +1,73 @@
+<div a >
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+    <div b ></div>
+</div>
+<div c >
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+	<div b ></div>
+
+</div>
+<div d >
+	<div e ></div>
+	<div e ></div>
+	<div e ></div>
+
+</div>
+<div f ></div>
+<style>
+  * {
+    background: #C74E4E;
+  }
+  [a],[c]{
+    display:flex;
+  }
+  [b]{
+    position: relative;
+    width: 20px;
+    height: 20px;
+	margin-left:5px;
+    background: #E0E246;
+    top: 182;
+    left: 77;
+    border-radius: 5px;
+  }
+  [c]{
+    position: relative;
+    top: -120;
+    left: 100;
+  }
+  [d]{
+    top: -120;
+    left: 100;
+  }
+  [e]{
+    position: relative;
+    width: 20px;
+    height: 20px;
+	margin-top:5px;
+    background: #E0E246;
+    top: 62;
+    left: 282;
+    border-radius: 5px;
+  }
+  [f]{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+	margin-top:5px;
+    background: #FFFFFF;
+    top: 85;
+    left: 90;
+    border-radius: 50px;
+  }
+</style>
