@@ -1,0 +1,73 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d><div d x></div>
+       <div d y></div>
+       <div d z></div>
+       <div d n></div>
+       <div d m></div>
+       <div d k></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #6F6100;
+  }
+  [a]{
+    position: absolute;
+    background: #1E92FF;
+    width: 400px;
+    height: 180px;
+  }
+  [b]{
+    position: absolute;
+    background: #69D10A;
+    width: 400px;
+    height: 40px;
+    top: 180;
+  }
+  [c]{
+    position: absolute;
+    background: #441A0A;
+    width: 20px;
+    height: 80px;
+    top: 100;
+    left: 50;
+  }
+  [d]{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  [x]{
+    background: #69D10A;
+    top: 60;
+    left: 40;
+  }
+  [y]{
+    background: #69D10A;
+    top: 80;
+    left: 60;
+  }
+  [z]{
+    background: #69D10A;
+    top: 80;
+    left: 40;
+  }
+  [n]{
+    background: #69D10A;
+    top: 80;
+    left: 20;
+  }
+  [m]{
+    background: #69D10A;
+    top: 130;
+    left: 310;
+  }
+  [k]{
+    background: #69D10A;
+    top: 150;
+    left: 310;
+  }
+</style>
