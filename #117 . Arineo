@@ -1,60 +1,51 @@
-<div a></div>
-<div b></div>
-<div c></div>
-<div d></div>
-<div e></div>
+<div class="a left"></div>
+<div class="a right"></div>
+<div class="tick left"></div>
+<div class="tick right"></div>
+<div class="circle"></div>
 <style>
-  body{
-    background: #fff;
-  }
-  [a]{
+  div {
     position: absolute;
-    width: 45px;
-    height: 180px;
-    background: #2E2926;
-    transform: skewX(25deg);
-    top: 60;
-    left: 221;
   }
-  [b]{
-    position: absolute;
-    width: 45px;
+  .a {
+    top: 60px;
+    width: 44px;
     height: 180px;
-    background: #2E2926;
+    background: #2e2926;
+  }
+  .a.left {
+    left: 134px;
     transform: skewX(-25deg);
-    top: 60;
-    left: 135;
   }
-  [c]{
-    position: absolute;
+  .a.right {
+    left: 222px;
+    transform: skewX(25deg);
+  }
+  .tick {
+    top: 60px;
+    background: #0088ca;
+    box-shadow: 0 11px #fff, 0 -11px #fff;
+  }
+  .tick.left {
     width: 80px;
     height: 28px;
-    background: #0088CA;
-    border-botto: unset;
+    top: 50%;
+    left: 120px;
     transform: skewY(45deg);
-    top: 137;
-    left: 120;
-    border-top: 10px solid #FFFFFF;
-    border-bottom: 14px solid #FFFFFF;
   }
-  [d]{
-    position: absolute;
+  .tick.right {
     width: 120px;
     height: 28px;
-    background: #0088CA;
-    border-botto: unset;
+    top: 43%;
+    left: 200px;
     transform: skewY(-45deg);
-    top: 117;
-    left: 200;
-    border-top: 10px solid #FFFFFF;
-    border-bottom: 14px solid #FFFFFF;
   }
-  [e]{
-    background: #0088CA;
+  .circle {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    margin:139px auto;
-    
+    background: #0088ca;
+    top: 139px;
+    left: 189px;
   }
 </style>
