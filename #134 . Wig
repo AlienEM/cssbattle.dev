@@ -1,0 +1,16 @@
+<div a></div>
+<style>
+  body {
+    background: #62306D;
+  }
+  [a]{
+    position: absolute;
+    width: 80px;
+    height: 160px;
+    background: #F7EC7D;
+    top: 70px;
+    left: 120px;
+    border-radius: 100px 0 50px 0px;
+    -webkit-box-reflect:right 0px;
+  }
+</style>
