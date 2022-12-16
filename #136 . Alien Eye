@@ -1,0 +1,45 @@
+<a></a>
+<b></b>
+<c></c>
+<d></d>
+<style>
+  * {
+    background: #998235;
+  }
+  a{
+    position:fixed;
+    background:#FCBE5C;
+    width:180;
+    height:180;
+    border-radius:50%;
+    top:60;
+    left:110;
+  }
+  b{
+    position:fixed;
+    width:60;
+    height:60;
+    border-radius:50%;
+    top:120;
+    left:180;
+    z-index:1;
+  }
+  c{
+    position:fixed;
+    width:140;
+    height:140;
+    background: #0B2429;
+    border-radius:50%;
+    top:80;
+    left:140;
+  }
+   d{
+    position:fixed;
+    background:#FCBE5C;
+    width:100;
+    height:100;
+    border-radius:50%;
+    top:100;
+    left:150;
+  }
+</style>
